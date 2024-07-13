@@ -1,10 +1,12 @@
 """
 
 """
+
 from c import C
 class V:
     def __init__(self):
         self.c=C()
+
     def __show(self):
         for itme in self.c.map:
             for s in itme:
